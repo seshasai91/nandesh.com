@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editor nandesh profil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .hero{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+        .nav{
+            display: flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+        .nav .u1 li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+
+ 
+
+
+        }
+        .nav .u1 li a{
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+
+        }
+        .nav .u1 li a:active{
+            color: red;
+            
+
+        }
+        .detel{
+            margin-left: 8%;
+            margin-top: 13%;
+        }
+        .detel h1{
+            font-size: 40px;
+            color: #2c474a;
+            margin-bottom: 15px;
+            
+        }
+        .edit{
+            color: rgb(135, 112, 82);
+            font-size: 60px;
+        }
+        .detel p{
+            color: #555;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .detel a{
+            font-size: 20px;
+            background: #43bab6dc;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #e0faff;
+            display: inline-block;
+            margin: 25px 0;
+            border-radius: 5px;
+
+        }
+        .images{
+            
+            width: 29%;
+            height: 81%;
+            position: absolute;
+            bottom: 0;
+            right: 100px;
+
+        }
+        .images img{
+            height: 124%;
+            position: absolute;
+            left: 67%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s;
+
+        }
+        .images:hover .shape{
+            bottom: 40px;
+
+        }
+        .images:hover .grid{
+            left: 45%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="../web.html/myfolder.html/logo.png" class="logo">
+            <u1>
+                <li><a href="#">HOME</a></li>
+                 <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">PROFILE</a></li>
+                   <li><a href="#">PHOTOS</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+            </u1>
+        </nav>
+        <div class="detel">
+            <h1>I,m Mr.Nandesh <span class="edit">Editor</span></h1>
+            <p>This is my official portfolio webpage to showes all my details
+                <br>Work Experince Editor pro
+            </p>
+        <a href="https://youtube.com/shorts/9nC18C7vzi8?si=kpmKLymdau_l7qY9" target="_blank">YouTube Studio</a>
+        </div>
+        <div class="images">
+            <img src="../web.html/myfolder.html/profile.jpg">
+        </div>
+    </div>
+
+    
+</body>
+</html>
